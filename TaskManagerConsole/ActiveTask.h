@@ -16,6 +16,10 @@ private:
 	//DisplayedTask * 
 public:
 	ActiveTask();
+	ActiveTask(string desc_, string det_) {
+		desc = desc_;
+		details = det_;
+	}
 	~ActiveTask();
 
 	void Complete(bool complete = true) {

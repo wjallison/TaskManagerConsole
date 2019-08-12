@@ -39,6 +39,12 @@
     <ClInclude Include="ArchivedTask.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ActiveTaskHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchiveHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -63,6 +69,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ArchivedTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveTaskHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchiveHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

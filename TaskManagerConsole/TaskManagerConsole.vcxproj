@@ -148,7 +148,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ActiveTask.h" />
+    <ClInclude Include="ActiveTaskHandler.h" />
     <ClInclude Include="ArchivedTask.h" />
+    <ClInclude Include="ArchiveHandler.h" />
     <ClInclude Include="EndCondition.h" />
     <ClInclude Include="RepeatCondition.h" />
     <ClInclude Include="stdafx.h" />
@@ -158,7 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ActiveTask.cpp" />
+    <ClCompile Include="ActiveTaskHandler.cpp" />
     <ClCompile Include="ArchivedTask.cpp" />
+    <ClCompile Include="ArchiveHandler.cpp" />
     <ClCompile Include="EndCondition.cpp" />
     <ClCompile Include="RepeatCondition.cpp" />
     <ClCompile Include="stdafx.cpp">
