@@ -13,6 +13,7 @@ private:
 	StoredTask * parent;
 	string note;
 	bool done;
+	//bool doneWhenCompleted;
 	//DisplayedTask * 
 public:
 	ActiveTask();
@@ -30,12 +31,13 @@ public:
 		tm *today = gmtime(&now);
 		string dateClosed = to_string(today->tm_mon) + "/" + to_string(today->tm_mday) + "/" + to_string(today->tm_year);
 		
-		ArchivedTask arch = ArchivedTask(desc, details, dateCreated, dateClosed, done, note);
 
-		__raise Archive(arch);
+		//ArchivedTask arch = ArchivedTask(desc, details, dateCreated, dateClosed, done, note);
+
+		//__raise Archive(arch);
 	}
 
-	__event void Archive(ArchivedTask at);
+	//__event void Archive(ArchivedTask at);
 
 	//Archive connection?
 };

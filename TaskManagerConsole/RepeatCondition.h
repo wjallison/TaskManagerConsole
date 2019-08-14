@@ -3,6 +3,9 @@
 class RepeatCondition
 {
 private:
+	bool completions;
+	//int completionsRemaining;
+
 	bool weekly;
 	bool wk[7];
 	
@@ -25,6 +28,12 @@ public:
 	~RepeatCondition();
 
 	bool Evaluate(tm dateTime) {
+		if (completions) {
+			/*if (completionsRemaining > 0) {
+				return true;
+			}*/
+			return true;
+		}
 		if (weekly) {
 			if (wk[dateTime.tm_wday]) {
 				return true;
